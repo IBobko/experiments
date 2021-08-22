@@ -8,3 +8,7 @@ docker cp 94eae4500e87:/root/IdeaProjects/gsm.hcpuk/invoices-for-warehouse/src/m
 # UK Invoice Template
 docker cp 94eae4500e87:/root/IdeaProjects/gsm.hcpuk/invoices-for-warehouse/src/main/resources/jrxml/template01.jrxml ./epam/GSM/UK_FR/UK_INVOICE/
 docker cp ./epam/GSM/UK_FR/UK_INVOICE/template01.jrxml 94eae4500e87:/root/IdeaProjects/gsm.hcpuk/invoices-for-warehouse/src/main/resources/jrxml/
+docker cp 94eae4500e87:/root/test_uk_invoices.pdf ./epam/GSM/UK_FR/UK_INVOICE/
+
+
+docker cp 94eae4500e87:/root/test_uk_reminders.pdf ./epam/GSM/UK_FR/UK_REMINDE/

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+    "value": "90d0e68d-81a7-4f0b-84dd-5f8f5639bf2f",
+    "slotSetting": false
+  },
+  {
+    "name": "AzureWebJobsDashboard",
+    "value": "DefaultEndpointsProtocol=https;AccountName=glbldglblgsmhqnasa;AccountKey=AL9A/hptmdo7HX9dOn35k1f9OMdTvXZHQakH4+AZJITs9tjJywx/EyY58gqrGbBxCYS0Nai9v5lOVFBUUCBCOw==;EndpointSuffix=core.windows.net",
+    "slotSetting": false
+  },
+  {
+    "name": "AzureWebJobsStorage",
+    "value": "DefaultEndpointsProtocol=https;AccountName=glbldglblgsmhqnasa;AccountKey=AL9A/hptmdo7HX9dOn35k1f9OMdTvXZHQakH4+AZJITs9tjJywx/EyY58gqrGbBxCYS0Nai9v5lOVFBUUCBCOw==;EndpointSuffix=core.windows.net",
+    "slotSetting": false
+  },
+  {
+    "name": "DB_PASSWORD",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-d-gsm-hqna-kv.vault.azure.net/secrets/DB-PASSWORD/)",
+    "slotSetting": false
+  },
+  {
+    "name": "DB_URL",
+    "value": "jdbc:sqlserver://HCUSSQLDWDV.na.harpercollins.org:1433;databaseName=GSMIntegration;",
+    "slotSetting": false
+  },
+  {
+    "name": "DB_USERNAME",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-d-gsm-hqna-kv.vault.azure.net/secrets/DB-USERNAME/)",
+    "slotSetting": false
+  },
+  {
+    "name": "ENVIRONMENT",
+    "value": "DEV",
+    "slotSetting": false
+  },
+  {
+    "name": "FROM_MAIL",
+    "value": "test@mail.com",
+    "slotSetting": false
+  },
+  {
+    "name": "FUNCTIONS_EXTENSION_VERSION",
+    "value": "~3",
+    "slotSetting": false
+  },
+  {
+    "name": "FUNCTIONS_WORKER_RUNTIME",
+    "value": "java",
+    "slotSetting": false
+  },
+  {
+    "name": "SCHEDULE",
+    "value": "0 0 0 * * *",
+    "slotSetting": false
+  },
+  {
+    "name": "SENDGRID_API_KEY",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-d-gsm-hqna-kv.vault.azure.net/secrets/SENDGRID-API-KEY/)",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_ARCHIVE_PATH",
+    "value": "/EPAM/Dev/print-book-orders/archive",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_FILE_EXTENSION",
+    "value": ".DECRYPT",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_HOST",
+    "value": "edidev.harpercollins.com",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_PASSWORD",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-d-gsm-hqna-kv.vault.azure.net/secrets/SFTP-PASSWORD/)",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_PORT",
+    "value": "22",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_SOURCE_PATH",
+    "value": "/EPAM/Dev/print-book-orders/source",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_TARGET_PATH",
+    "value": "/EPAM/Dev/print-book-orders/target",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_USER",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-d-gsm-hqna-kv.vault.azure.net/secrets/SFTP-USER/)",
+    "slotSetting": false
+  },
+  {
+    "name": "TO_MAIL",
+    "value": "bohdan_asieiev@epam.com;aseevbogdan5@gmail.com;aseevbogdan6@gmail.com;limit-speed@yandex.ru",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_ENABLE_SYNC_UPDATE_SITE",
+    "value": "true",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_HEALTHCHECK_MAXPINGFAILURES",
+    "value": "10",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_NODE_DEFAULT_VERSION",
+    "value": "~12",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_RUN_FROM_PACKAGE",
+    "value": "1",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_TIME_ZONE",
+    "value": "UTC",
+    "slotSetting": false
+  }
+]

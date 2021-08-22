@@ -1,0 +1,112 @@
+[
+  {
+    "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+    "value": "280cf823-271a-4f2d-a466-597bad424b58",
+    "slotSetting": false
+  },
+  {
+    "name": "AzureWebJobsDashboard",
+    "value": "DefaultEndpointsProtocol=https;AccountName=glblqglblgsmhcpuksa;AccountKey=e5RRZS23263WRwZLAhmg0odILuZgSDcf35Ra4QhJZfSKEzXnPc2gMRL7kD+tFcLyR39mSF8/+cyGASP/7f6zWA==;EndpointSuffix=core.windows.net",
+    "slotSetting": false
+  },
+  {
+    "name": "AzureWebJobsStorage",
+    "value": "DefaultEndpointsProtocol=https;AccountName=glblqglblgsmhcpuksa;AccountKey=e5RRZS23263WRwZLAhmg0odILuZgSDcf35Ra4QhJZfSKEzXnPc2gMRL7kD+tFcLyR39mSF8/+cyGASP/7f6zWA==;EndpointSuffix=core.windows.net",
+    "slotSetting": false
+  },
+  {
+    "name": "ENVIRONMENT",
+    "value": "QA",
+    "slotSetting": false
+  },
+  {
+    "name": "FROM_MAIL",
+    "value": "TestUKOrderFullfilment@mail.com",
+    "slotSetting": false
+  },
+  {
+    "name": "FUNCTIONS_EXTENSION_VERSION",
+    "value": "~3",
+    "slotSetting": false
+  },
+  {
+    "name": "FUNCTIONS_WORKER_RUNTIME",
+    "value": "java",
+    "slotSetting": false
+  },
+  {
+    "name": "SCHEDULE",
+    "value": "0 50 0 * * *",
+    "slotSetting": false
+  },
+  {
+    "name": "SENDGRID_API_KEY",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-q-gsm-hcpuk-kv.vault.azure.net/secrets/SENDGRID-API-KEY/)",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_ARCHIVE_PATH",
+    "value": "/QA/UK/order-fulfillment/archive",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_FILE_EXTENSION",
+    "value": "xml",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_HOST",
+    "value": "ftp.harpercollins.co.uk",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_PASSWORD",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-q-gsm-hcpuk-kv.vault.azure.net/secrets/SFTP-PASSWORD/)",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_PORT",
+    "value": "22",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_SOURCE_PATH",
+    "value": "/QA/UK/order-fulfillment/source",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_TARGET_PATH",
+    "value": "/QA/UK/order-fulfillment/target",
+    "slotSetting": false
+  },
+  {
+    "name": "SFTP_USER",
+    "value": "@Microsoft.KeyVault(SecretUri=https://glbl-q-gsm-hcpuk-kv.vault.azure.net/secrets/SFTP-USER/)",
+    "slotSetting": false
+  },
+  {
+    "name": "TO_MAIL",
+    "value": "oleksandr_honcharov@epam.com",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_ENABLE_SYNC_UPDATE_SITE",
+    "value": "true",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_NODE_DEFAULT_VERSION",
+    "value": "~12",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_RUN_FROM_PACKAGE",
+    "value": "1",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITE_TIME_ZONE",
+    "value": "UTC",
+    "slotSetting": false
+  }
+]
